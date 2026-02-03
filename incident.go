@@ -102,7 +102,7 @@ type Incident struct {
 	ResponderRequests    []ResponderRequest   `json:"responder_requests,omitempty"`
 	ResolvedAt           string               `json:"resolved_at,omitempty"`
 	UpdatedAt            string               `json:"updated_at,omitempty"`
-	CustomFields         []ServiceCustomFieldValue  `json:"custom_fields,omitempty"
+	CustomFields         []ServiceCustomFieldValue  `json:"custom_fields,omitempty"`
 }
 
 // ListIncidentsResponse is the response structure when calling the ListIncident API endpoint.
